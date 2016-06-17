@@ -12,7 +12,7 @@ gulp.task('sass', function() {
       sass: true,
       ignoreJsonErrors: true
     }))
-    .pipe(concat('output.sass'))
+    .pipe(concat('output.scss'))
     .pipe(sourcemaps.init())
     .pipe(sass().on('error', sass.logError))
     .pipe(sourcemaps.write('./maps'))

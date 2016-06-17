@@ -1,22 +1,20 @@
 {
-	"name": "design",
-	"version": "0.1.0",
 	"type": {
-		"base-size": "16px",
-		"baseline": "22px",
-		"scale": "1.414"
+		"base-size": "16px;",
+		"baseline": "22px;",
+		"scale": "1.414;"
 	},
 	"font": {
-		"font-primary": "Georgia, Times New Roman, serif",
-		"font-secondary": "Helvetica, Arial, sans-serif"
+		"font-primary": "Georgia, Times New Roman, serif;",
+		"font-secondary": "Helvetica, Arial, sans-serif;"
 	},
 	"whitespace": {
-		"margin": "1",
-		"padding": "1"
+		"margin": "1;",
+		"padding": "1;"
 	},
 	"color": {
-		"primary": "#f26322",
-		"secondary": "#310031",
-		"base": "#000000"
+		"primary": "#f26322;",
+		"secondary": "#310031;",
+		"base": "#000000;"
 	}
 }

@@ -1,0 +1,12 @@
+{
+	"base-size": "16px",
+	"baseline": "22px",
+	"scale": "1.414",
+	"font-primary": "Georgia, Times New Roman, serif",
+	"font-secondary": "Helvetica, Arial, sans-serif",
+	"margin-scale": "1",
+	"padding-scale": "1",
+	"color-primary": "#f26322",
+	"color-secondary": "#310031",
+	"color-base": "#000000"
+}
