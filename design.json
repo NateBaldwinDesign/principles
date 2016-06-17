@@ -1,12 +1,12 @@
 {
-	"type": {
-		"base-size": "16px;",
-		"baseline": "22px;",
+	"base": {
+		"font-size": "16px;",
+		"line-height": "22px;",
 		"scale": "1.414;"
 	},
 	"font": {
-		"font-primary": "Georgia, Times New Roman, serif;",
-		"font-secondary": "Helvetica, Arial, sans-serif;"
+		"primary": "Georgia, Times New Roman, serif;",
+		"secondary": "Helvetica, Arial, sans-serif;"
 	},
 	"whitespace": {
 		"margin": "1;",
