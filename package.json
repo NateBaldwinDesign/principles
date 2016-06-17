@@ -1,0 +1,17 @@
+{
+  "name": "design-properties",
+  "version": "0.1.0",
+  "description": "",
+  "main": "gulpfile.js",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/NateBaldwinDesign/design-properties.git"
+  },
+  "devDependencies": {
+    "gulp": "^3.9.1",
+    "gulp-concat": "^2.6.0",
+    "gulp-json-sass": "0.0.2",
+    "gulp-ruby-sass": "^2.0.6",
+    "typesettings": "^3.0.1"
+  }
+}
