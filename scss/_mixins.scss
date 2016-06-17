@@ -125,7 +125,7 @@ $body-width: 960px;
   $baseline-color: rgba(56,255,255,.8);
   
   // These are all automatically calculated
-  $gutter-width: 20px;  // Change if you like
+  $gutter-width: $global-margin;  // Change if you like
   $gutters: ($columns - 1);
   $column-width: $body-width / $columns;
   

@@ -9,8 +9,8 @@
 		"secondary": "Helvetica, Arial, sans-serif;"
 	},
 	"whitespace": {
-		"margin": "1;",
-		"padding": "1;"
+		"margin": "1.5;",
+		"padding": "1.5;"
 	},
 	"color": {
 		"primary": "#f26322;",

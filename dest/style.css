@@ -1,12 +1,14 @@
 @charset "UTF-8";
+/*============================================*/
+/*============================================*/
 /* Sass Mixin that generates a Baseline Grid */
 /* by: Mike Morrison, Soholaunch.com */
 /* You don't have to leave this credit comment in, but it would be nice of you. */
 body {
-  background-image: -moz-linear-gradient(0deg, rgba(200, 0, 0, 0.2) 60px, transparent 20px), -moz-linear-gradient(top, transparent 95%, rgba(56, 255, 255, 0.8) 100%);
-  background-image: -o-linear-gradient(0deg, rgba(200, 0, 0, 0.2) 60px, transparent 20px), -o-linear-gradient(top, transparent 95%, rgba(56, 255, 255, 0.8) 100%);
-  background-image: -webkit-linear-gradient(0deg, rgba(200, 0, 0, 0.2) 60px, transparent 20px), -webkit-linear-gradient(top, transparent 95%, rgba(56, 255, 255, 0.8) 100%);
-  background-size: 80px 100%, 100% 22px;
+  background-image: -moz-linear-gradient(0deg, rgba(200, 0, 0, 0.2) 60px, transparent 24px), -moz-linear-gradient(top, transparent 95%, rgba(56, 255, 255, 0.8) 100%);
+  background-image: -o-linear-gradient(0deg, rgba(200, 0, 0, 0.2) 60px, transparent 24px), -o-linear-gradient(top, transparent 95%, rgba(56, 255, 255, 0.8) 100%);
+  background-image: -webkit-linear-gradient(0deg, rgba(200, 0, 0, 0.2) 60px, transparent 24px), -webkit-linear-gradient(top, transparent 95%, rgba(56, 255, 255, 0.8) 100%);
+  background-size: 84px 100%, 100% 22px;
   background-position: 10px 0px; }
 
 html {
@@ -175,14 +177,18 @@ hr {
   border-top-width: 1px;
   padding-top: 1.4375em; }
 
+/*============================================*/
+/*============================================*/
+/*============================================*/
+/*============================================*/
 /* Sass Mixin that generates a Baseline Grid */
 /* by: Mike Morrison, Soholaunch.com */
 /* You don't have to leave this credit comment in, but it would be nice of you. */
 body {
-  background-image: -moz-linear-gradient(0deg, rgba(200, 0, 0, 0.2) 60px, transparent 20px), -moz-linear-gradient(top, transparent 95%, rgba(56, 255, 255, 0.8) 100%);
-  background-image: -o-linear-gradient(0deg, rgba(200, 0, 0, 0.2) 60px, transparent 20px), -o-linear-gradient(top, transparent 95%, rgba(56, 255, 255, 0.8) 100%);
-  background-image: -webkit-linear-gradient(0deg, rgba(200, 0, 0, 0.2) 60px, transparent 20px), -webkit-linear-gradient(top, transparent 95%, rgba(56, 255, 255, 0.8) 100%);
-  background-size: 80px 100%, 100% 22px;
+  background-image: -moz-linear-gradient(0deg, rgba(200, 0, 0, 0.2) 60px, transparent 24px), -moz-linear-gradient(top, transparent 95%, rgba(56, 255, 255, 0.8) 100%);
+  background-image: -o-linear-gradient(0deg, rgba(200, 0, 0, 0.2) 60px, transparent 24px), -o-linear-gradient(top, transparent 95%, rgba(56, 255, 255, 0.8) 100%);
+  background-image: -webkit-linear-gradient(0deg, rgba(200, 0, 0, 0.2) 60px, transparent 24px), -webkit-linear-gradient(top, transparent 95%, rgba(56, 255, 255, 0.8) 100%);
+  background-size: 84px 100%, 100% 22px;
   background-position: 10px 0px; }
 
 html {

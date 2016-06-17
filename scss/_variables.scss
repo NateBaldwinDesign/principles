@@ -96,3 +96,9 @@ $ms-up10: $ms-up9 * $ms-ratio;
 
 // Warning text for when an integer is not used in rhythm functions
 $not-integer-txt: ' value breaks vertical rhythm. Use an integer (whole number) for $lines.';
+
+/*============================================*/
+// Whitespace margins & padding based on type
+$global-margin: ($base-font-size * $whitespace-margin);
+
+/*============================================*/
