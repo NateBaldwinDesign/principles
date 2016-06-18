@@ -42,19 +42,6 @@ $base-vertical-unit: 6px !default;
 // This gives type an ideal line-height.
 $base-line-multi: 4 !default;
 
-// Base font size in pixels.
-$base-font-size: 16px !default;
-
-// Modular scale ratio that is used to figure out all the different font sizes
-$base-scale: 1.414 !default;
-
-// [1] Paragraph setting that you can turn on or off the indent of the first line
-// of a new paragraph.
-// [2] Paragraph setting that you can turn on or off to have your paragraphs ragged
-// right or justified.
-$paragraph-indent: true !default; // [1]
-$paragraph-justify: true !default; // [2]
-
 // You can optionally load type styles that use Typesettings.
 $load-typesetted: true !default;
 
