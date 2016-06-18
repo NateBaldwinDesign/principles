@@ -31,15 +31,6 @@ $load-typesetted: true;
 //==============================================================================
 // Config Variables
 //==============================================================================
-// The config variables have default values that are just looking to be adjusted.
-// Use this variables to customize your Typesettings. Or take the whole thing
-// apart if you want :)
-
-// Font families and default text color.
-$font-secondary: 'Helvetica Neue', Helvetica, Arial, sans-serif !default;
-$font-primary: Georgia, 'Times New Roman', serif !default;
-$font-monospace: 'Lucida Console', Monaco, monospace !default;
-$text-color: #000 !default;
 
 // The vertical grid unit. Margin, padding, and line-height are set to multiples
 // of this value. This is the value that determines the baseline for our vertical
