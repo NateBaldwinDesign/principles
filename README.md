@@ -1,9 +1,10 @@
-# Axiom Typescale
+# Principle 
+### Design System Starter Toolkit
 > *Create typographically proportional interfaces based on design principles*
 
 [Build Status](https://travis-ci.com/NateBaldwinDesign/principles.svg?token=URhNXWWxqVjisSnKyjxL&branch=master)
 
-This toolset allows you to incorporate design principles throughout your entire web interface. Type is scaled in ems, with responsive headlines with a proportional baseline grid.
+This toolkit allows you to incorporate design principles throughout your entire web interface. Type is scaled in ems, with responsive headlines with a proportional baseline grid.
 
 Axiom builds stylesheets based on a single JSON file `config.json`. Principles of design can be easily entered by designers, which are then incorporated as SASS variables and mixins. 
 
