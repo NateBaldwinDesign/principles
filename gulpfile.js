@@ -4,7 +4,7 @@ var jsonSass = require('gulp-json-sass'),
     sass = require('gulp-sass'),
     clean = require('gulp-rimraf'),
     sourcemaps = require('gulp-sourcemaps'),
-    designProperties = require('./principles.json');
+    designProperties = require('./config.json');
 
 
 gulp.task('clean-css', function() {
@@ -13,7 +13,7 @@ gulp.task('clean-css', function() {
 // Convert JSON to SCSS variables
 gulp.task('json-sass', ['clean-css'], function() {
   return gulp
-    .src('principles.json')
+    .src('config.json')
     .pipe(jsonSass({
       sass: true,
       ignoreJsonErrors: false

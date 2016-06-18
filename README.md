@@ -3,7 +3,7 @@
 
 This toolset allows you to incorporate design principles throughout your entire web interface. Type is scaled in ems, with responsive headlines with a proportional baseline grid.
 
-Axiom builds stylesheets based on a single JSON file `principles.json`. Principles of design can be easily entered by designers, which are then incorporated as SASS variables and mixins. 
+Axiom builds stylesheets based on a single JSON file `config.json`. Principles of design can be easily entered by designers, which are then incorporated as SASS variables and mixins. 
 
 Custom baseline grid overlay for debugging.
 
@@ -19,7 +19,7 @@ Custom baseline grid overlay for debugging.
 
 ## How it Works
 
-Example properties in `principles.json` file:
+Example properties in `config.json` file:
 ```json
 {
 	"base": {
