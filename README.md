@@ -1,7 +1,7 @@
 # Axiom Typescale
 > *Create typographically proportional interfaces based on design principles*
 
-[![Build Status](https://travis-ci.com/NateBaldwinDesign/principles.svg?token=URhNXWWxqVjisSnKyjxL&branch=master)]
+[Build Status](https://travis-ci.com/NateBaldwinDesign/principles.svg?token=URhNXWWxqVjisSnKyjxL&branch=master)
 
 This toolset allows you to incorporate design principles throughout your entire web interface. Type is scaled in ems, with responsive headlines with a proportional baseline grid.
 
