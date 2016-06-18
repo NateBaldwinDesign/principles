@@ -10,8 +10,8 @@
 		"monospace": "'Lucida Console', Monaco, monospace;"
 	},
 	"paragraph": {
-		"indent": "true",
-		"justify": "true"
+		"indent": "true;",
+		"justify": "true;"
 	},
 	"whitespace": {
 		"margin": "1.5;",

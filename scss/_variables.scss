@@ -1,15 +1,11 @@
 @charset "UTF-8";
-//==================================
-// Import your design principles
-//==================================
 
+// Import your design principle variables
 @import '_principles';
 
 $text-color: #000;
 $base-vertical-unit: 6px;
 $base-line-multi: 4;
-$paragraph-indent: true;
-$paragraph-justify: true;
 $load-typesetted: true;
 
 // ==============================================================================
@@ -75,8 +71,6 @@ $ms-up10: $ms-up9 * $base-scale;
 // Warning text for when an integer is not used in rhythm functions
 $not-integer-txt: ' value breaks vertical rhythm. Use an integer (whole number) for $lines.';
 
-/*============================================*/
+//==============================================================================
 // Whitespace margins & padding based on type
 $global-margin: ($base-font-size * $whitespace-margin);
-
-/*============================================*/
