@@ -51,7 +51,7 @@ body {
   background-image: -moz-linear-gradient(0deg, rgba(200, 0, 0, 0.2) 60px, transparent 24px), -moz-linear-gradient(top, transparent 95%, rgba(56, 255, 255, 0.8) 100%);
   background-image: -o-linear-gradient(0deg, rgba(200, 0, 0, 0.2) 60px, transparent 24px), -o-linear-gradient(top, transparent 95%, rgba(56, 255, 255, 0.8) 100%);
   background-image: -webkit-linear-gradient(0deg, rgba(200, 0, 0, 0.2) 60px, transparent 24px), -webkit-linear-gradient(top, transparent 95%, rgba(56, 255, 255, 0.8) 100%);
-  background-size: 84px 100%, 100% 26px;
+  background-size: 84px 100%, 100% 24px;
   background-position: 10px 0px; }
 
 html {
