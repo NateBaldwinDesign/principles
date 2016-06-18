@@ -58,3 +58,51 @@ Gulp generates variables during SASS compilation:
 These variables are pulled into variables and mixins from [typesettings](http://typesettings.io) as well as some additional custom mixins to generate proportional values.
 
 ![Example Image](/assets/type-scale.jpg)
+
+## Configuration
+### base
+This is a group of base, fundamental properties.
+
+#### font-size
+This is the base font size (in pixels) for your body copy. 
+
+#### vertical-unit
+The vertical grid unit. Margin, padding, and line-height are set to multiples of this value. This is the value that determines the baseline for our vertical rhythm. The default value of 6px allows more fine tuned designs that still obey vertical rhythm.
+
+#### line-multi
+The value that multiplies the $base-vertical-unit to get the $base-line-height. This gives type an ideal line-height.
+
+#### scale
+This is the modular scale ratio used to determine font sizes, line-heights, margins and padding.
+
+### font
+This is a group of fonts.
+
+#### primary
+This font stack is used in headlines.
+
+#### secondary
+This font stack is used in body copy.
+
+#### monospace
+This font stack is the monospace font.
+
+### paragraph
+This is a group of paragraph-related configurations.
+
+#### indent
+Default: `true`
+This indents the first line of a new paragraph.
+
+#### justiy
+Default: `true`
+Configures whether your paragraphs are ragged or justified.
+
+### whitespace
+This is a group of properties related to the spacing.
+
+#### margin
+Ratio that determines global margins based on the base font size.
+
+#### padding
+Ratio that determines global padding based on the base font size.
