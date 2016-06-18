@@ -58,4 +58,3 @@ Gulp generates variables during SASS compilation:
 These variables are pulled into variables and mixins from [typesettings](http://typesettings.io) as well as some additional custom mixins to generate proportional values.
 
 ![Example Image](/assets/type-scale.jpg)
-Format: ![Balanced typography with baseline grid](url)
