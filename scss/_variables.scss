@@ -32,14 +32,11 @@ $load-typesetted: true;
 // of this value. This is the value that determines the baseline for our vertical
 // rhythm. The default value of 6px allows more fine tuned designs that still
 // obey vertical rhythm.
-$base-vertical-unit: 6px !default;
+// $base-vertical-unit: 6px !default;
 
 // The value that multiplies the $base-vertical-unit to get the $base-line-height.
 // This gives type an ideal line-height.
-$base-line-multi: 4 !default;
-
-// You can optionally load type styles that use Typesettings.
-$load-typesetted: true !default;
+// $base-line-multi: 4 !default;
 
 //==============================================================================
 // Internal Variables
