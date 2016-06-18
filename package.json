@@ -1,7 +1,7 @@
 {
-  "name": "design-properties",
+  "name": "axiom-typescale",
   "version": "0.1.1",
-  "description": "",
+  "description": "Toolset for generating typographically balanced interfaces",
   "main": "gulpfile.js",
   "repository": {
     "type": "git",
