@@ -5,8 +5,9 @@
 		"scale": "1.414;"
 	},
 	"font": {
-		"primary": "Georgia, Times New Roman, serif;",
-		"secondary": "Helvetica, Arial, sans-serif;"
+		"primary": "Times New Roman, Georgia, serif;",
+		"secondary": "Helvetica, Arial, sans-serif;",
+		"monospace": "'Lucida Console', Monaco, monospace;"
 	},
 	"whitespace": {
 		"margin": "1.5;",

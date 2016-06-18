@@ -1,6 +1,6 @@
 {
   "name": "design-properties",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "description": "",
   "main": "gulpfile.js",
   "repository": {
@@ -11,8 +11,10 @@
     "gulp": "^3.9.1",
     "gulp-concat": "^2.6.0",
     "gulp-json-sass": "0.0.2",
+    "gulp-rimraf": "^0.2.0",
     "gulp-sass": "^2.3.2",
     "gulp-sourcemaps": "^1.6.0",
+    "node-sass": "^3.8.0",
     "normalize-scss": "^5.0.3",
     "reset-css": "^2.0.2011012603",
     "typesettings": "^3.0.1"

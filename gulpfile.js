@@ -2,17 +2,29 @@ var jsonSass = require('gulp-json-sass'),
     gulp = require('gulp'),
     concat = require('gulp-concat'),
     sass = require('gulp-sass'),
+    clean = require('gulp-rimraf'),
     sourcemaps = require('gulp-sourcemaps'),
     designProperties = require('./principles.json');
- 
-gulp.task('sass', function() {
+
+
+gulp.task('clean-css', function() {
+    gulp.src('dest/**.css').pipe(clean());
+})
+// Convert JSON to SCSS variables
+gulp.task('json-sass', ['clean-css'], function() {
   return gulp
-    .src(['principles.json', 'scss/**/*.scss'])
+    .src('principles.json')
     .pipe(jsonSass({
       sass: true,
-      ignoreJsonErrors: true
+      ignoreJsonErrors: false
     }))
-    .pipe(concat('style.scss'))
+    .pipe(concat('_principles.scss'))
+    .pipe(gulp.dest('scss/'));
+});
+// Compile Sass
+gulp.task('sass', ['json-sass'], function() {
+  return gulp
+    .src('scss/**/*.scss')
     .pipe(sourcemaps.init())
     .pipe(sass().on('error', sass.logError))
     .pipe(sourcemaps.write('./maps'))

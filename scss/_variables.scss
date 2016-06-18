@@ -1,13 +1,13 @@
 @charset "UTF-8";
+//==================================
+// Import your design principles
+//==================================
 
-$font-sans: 'Helvetica Neue', Helvetica, Arial, sans-serif;
-$font-serif: Georgia, 'Times New Roman', serif;
-$font-mono: 'Lucida Console', Monaco, monospace;
+@import '_principles';
+
 $text-color: #000;
 $base-vertical-unit: 6px;
 $base-line-multi: 4;
-$base-font-size: 16px;
-$ms-ratio: 1.414;
 $paragraph-indent: true;
 $paragraph-justify: true;
 $load-typesetted: true;
@@ -36,9 +36,9 @@ $load-typesetted: true;
 // apart if you want :)
 
 // Font families and default text color.
-$font-sans: 'Helvetica Neue', Helvetica, Arial, sans-serif !default;
-$font-serif: Georgia, 'Times New Roman', serif !default;
-$font-mono: 'Lucida Console', Monaco, monospace !default;
+$font-secondary: 'Helvetica Neue', Helvetica, Arial, sans-serif !default;
+$font-primary: Georgia, 'Times New Roman', serif !default;
+$font-monospace: 'Lucida Console', Monaco, monospace !default;
 $text-color: #000 !default;
 
 // The vertical grid unit. Margin, padding, and line-height are set to multiples
@@ -55,7 +55,7 @@ $base-line-multi: 4 !default;
 $base-font-size: 16px !default;
 
 // Modular scale ratio that is used to figure out all the different font sizes
-$ms-ratio: 1.414 !default;
+$base-scale: 1.414 !default;
 
 // [1] Paragraph setting that you can turn on or off the indent of the first line
 // of a new paragraph.
@@ -79,20 +79,20 @@ $base-em-font-size: 1em;
 // then add more sizes.
 // [1] One step down in the modular scale in EMs
 // [2] One step up in the modular scale in EMs
-$ms-down1: $base-em-font-size / $ms-ratio; // [1]
-$ms-down2: $ms-down1 /$ms-ratio;
-$ms-down3: $ms-down2 / $ms-ratio;
-$ms-down4: $ms-down3 / $ms-ratio;
-$ms-up1: $base-em-font-size * $ms-ratio; // [2]
-$ms-up2: $ms-up1 * $ms-ratio;
-$ms-up3: $ms-up2 * $ms-ratio;
-$ms-up4: $ms-up3 * $ms-ratio;
-$ms-up5: $ms-up4 * $ms-ratio;
-$ms-up6: $ms-up5 * $ms-ratio;
-$ms-up7: $ms-up6 * $ms-ratio;
-$ms-up8: $ms-up7 * $ms-ratio;
-$ms-up9: $ms-up8 * $ms-ratio;
-$ms-up10: $ms-up9 * $ms-ratio;
+$ms-down1: $base-em-font-size / $base-scale; // [1]
+$ms-down2: $ms-down1 /$base-scale;
+$ms-down3: $ms-down2 / $base-scale;
+$ms-down4: $ms-down3 / $base-scale;
+$ms-up1: $base-em-font-size * $base-scale; // [2]
+$ms-up2: $ms-up1 * $base-scale;
+$ms-up3: $ms-up2 * $base-scale;
+$ms-up4: $ms-up3 * $base-scale;
+$ms-up5: $ms-up4 * $base-scale;
+$ms-up6: $ms-up5 * $base-scale;
+$ms-up7: $ms-up6 * $base-scale;
+$ms-up8: $ms-up7 * $base-scale;
+$ms-up9: $ms-up8 * $base-scale;
+$ms-up10: $ms-up9 * $base-scale;
 
 // Warning text for when an integer is not used in rhythm functions
 $not-integer-txt: ' value breaks vertical rhythm. Use an integer (whole number) for $lines.';
