@@ -20,7 +20,7 @@ Custom baseline grid overlay for debugging.
 ## How it Works
 
 Example properties in `principles.json` file:
-```
+```json
 {
 	"base": {
 		"font-size": "16px;",
@@ -43,7 +43,7 @@ Example properties in `principles.json` file:
 }
 ```
 Gulp generates variables during SASS compilation:
-```
+```sass
 	$base-font-size: 		16px;
 	$base-line-height: 		22px;
 	$base-scale: 			1.414;
