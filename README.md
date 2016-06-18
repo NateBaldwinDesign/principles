@@ -16,3 +16,44 @@ Font sizes, line heights, padding, and margins are all based on font size, typog
 ### Made possible by:
 * Typesettings
 * gulp-json-sass
+
+----
+## How it Works
+
+Example properties in `principles.json` file:
+```
+{
+	"base": {
+		"font-size": "16px;",
+		"line-height": "22px;",
+		"scale": "1.414;"
+	},
+	"font": {
+		"primary": "Georgia, Times New Roman, serif;",
+		"secondary": "Helvetica, Arial, sans-serif;"
+	},
+	"whitespace": {
+		"margin": "1.5;",
+		"padding": "1.5;"
+	},
+	"color": {
+		"primary": "#f26322;",
+		"secondary": "#310031;",
+		"base": "#000000;"
+	}
+}
+```
+Gulp generates variables during SASS compilation:
+```
+	$base-font-size: 		16px;
+	$base-line-height: 		22px;
+	$base-scale: 			1.414;
+	$font-primary: 			Georgia, Times New Roman, serif;
+	$font-secondary: 		Helvetica, Arial, sans-serif;
+	$whitespace-margin:		1.5;
+	$whitespace-padding:	1.5;
+	$color-primary: 		#f26322;
+	$color-secondary: 		#310031;
+	$color-base: 			#000000;
+```
+These variables are pulled into variables and mixins from [typesettings](http://typesettings.io) as well as some additional custom mixins to generate proportional values.
