@@ -3,11 +3,11 @@ var jsonSass = require('gulp-json-sass'),
     concat = require('gulp-concat'),
     sass = require('gulp-sass'),
     sourcemaps = require('gulp-sourcemaps'),
-    designProperties = require('./design.json');
+    designProperties = require('./principles.json');
  
 gulp.task('sass', function() {
   return gulp
-    .src(['design.json', 'scss/**/*.scss'])
+    .src(['principles.json', 'scss/**/*.scss'])
     .pipe(jsonSass({
       sass: true,
       ignoreJsonErrors: true
