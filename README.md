@@ -1,4 +1,4 @@
-# Principle 
+# Principles 
 ### Design System Starter Toolkit
 > *Create typographically proportional interfaces based on design principles*
 
