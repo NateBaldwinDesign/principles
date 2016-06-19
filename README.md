@@ -60,6 +60,14 @@ Gulp generates variables during SASS compilation:
 ```
 These variables are pulled into variables and mixins from [typesettings](http://typesettings.io) as well as some additional custom mixins to generate proportional values.
 
+#### Additional Style Variable Outputs
+Our goal is to aid in cross-platform development using unified styles. In order to do this, the principle variables are generated in the following formats:
+
+* Scss
+* Sass
+* Less
+* Stylus
+
 ![Example Image](/assets/type-scale.jpg)
 
 ## Configuration

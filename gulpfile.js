@@ -13,7 +13,7 @@ gulp.task('clean-css', function() {
     gulp.src('build/**.css').pipe(clean());
 })
 // Convert JSON to SCSS variables
-gulp.task('json-sass', function() {
+gulp.task('json-scss', function() {
   return gulp
     .src('config.json')
     .pipe(jsonSass({
@@ -22,6 +22,19 @@ gulp.task('json-sass', function() {
     }))
     .pipe(concat('_principles.scss'))
     .pipe(gulp.dest('scss/'))
+    .pipe(gulp.dest('dest/'));
+});
+// Convert JSON to SASS variables
+gulp.task('json-sass', function() {
+  return gulp
+    .src('config.json')
+    .pipe(jsonSass({
+      sass: true,
+      ignoreJsonErrors: false
+    }))
+    .pipe(concat('_principles.scss'))
+    .pipe(replace(';', ''))
+    .pipe(rename('_principles.sass'))
     .pipe(gulp.dest('dest/'));
 });
 // Convert JSON to Less variables
@@ -58,7 +71,7 @@ gulp.task('json-stylus', function() {
 
 
 // Compile Sass
-gulp.task('sass', ['json-sass'], function() {
+gulp.task('scss', ['json-scss'], function() {
   return gulp
     .src('scss/**/*.scss')
     .pipe(sourcemaps.init())
