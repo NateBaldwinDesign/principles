@@ -37,6 +37,21 @@ gulp.task('json-less', function() {
     .pipe(rename('_principles.less'))
     .pipe(gulp.dest('dest/'));
 });
+// Convert JSON to Stylus variables
+gulp.task('json-stylus', function() {
+  return gulp
+    .src('config.json')
+    .pipe(jsonSass({
+      sass: true,
+      ignoreJsonErrors: false
+    }))
+    .pipe(concat('_principles.scss'))    
+    .pipe(replace('$', ''))
+    .pipe(replace(':', '='))
+    .pipe(replace(';', ''))
+    .pipe(rename('_principles.styl'))
+    .pipe(gulp.dest('dest/'));
+});
 // Convert JSON to Android XML
 
 // Convert JSON to iOS JSON format
