@@ -15,7 +15,7 @@ gulp.task('clean-css', function() {
 // Convert JSON to SCSS variables
 gulp.task('json-scss', function() {
   return gulp
-    .src('config.json')
+    .src('principles/typography.json')
     .pipe(jsonSass({
       sass: true,
       ignoreJsonErrors: false

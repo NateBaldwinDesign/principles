@@ -21,6 +21,7 @@
     "normalize-scss": "^5.0.3",
     "reset-css": "^2.0.2011012603",
     "semver": "^5.1.0",
+    "theo": "^4.2.1",
     "typesettings": "^3.0.1"
   }
 }
